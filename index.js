@@ -108,5 +108,5 @@ const displayResults = async (query) => {
   }
 };
 
-displayResults("query=batman");
+//displayResults("query=batman");
 
