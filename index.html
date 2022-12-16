@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who's the Composer?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header"><h1>Who is the Composer?</h1></div>
+
+      <div class="inputform">
+        <form id="movieForm">
+          <label for="movieId">Search a movie:</label><br />
+          <div>
+          <input type="text" id="query" name="query" placeholder="search a movie or show" />
+          <button type="submit">Fetch credited composer</button></div>
+        </form>
+      </div>
+
+      <div id="results">
+        <!-- Here, we will insert the search results using JavaScript -->
+      </div>
+
+      <div id="composer"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

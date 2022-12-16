@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #565867;
+  }
+  a {
+    color: green;
+  }
+  main {
+    width: 1280px;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .inputform {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #movieForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #movieForm label {
+    margin-bottom: 10px;
+  }
+  
+  #movieForm input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #movieForm button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #movieForm button:hover {
+    background-color: #444;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  .image {
+    width: 120px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .poster {
+    width: 120px;
+  }
+  
+  .details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .title h2 {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .title_header {
+    display:flex;
+    align-items: center;
+  }
+  .overview {
+    line-height: 1.0;
+  }
+  
