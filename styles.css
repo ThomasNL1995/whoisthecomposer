@@ -87,7 +87,7 @@ body {
   .title {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     flex-direction: column;
   }
   
@@ -97,11 +97,18 @@ body {
     margin-top: 5px;
   }
   
-  .title_header {
+  .title_header, .result-title {
     display:flex;
     align-items: center;
+  }
+
+  #result-amount {
+    margin: 0px 10px;
   }
   .overview {
     line-height: 1.0;
   }
   
+  .sort-select {
+    margin-bottom: 25px;
+  }

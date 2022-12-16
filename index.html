@@ -19,13 +19,25 @@
           <button type="submit">Fetch credited composer</button></div>
         </form>
       </div>
-
+      <div class="result-header">
+        <div class="result-title"><h2>Results</h2><div id="result-amount"></div></div>
+        <div class="sort-select">
+          <label for="sorting">Sort by:</label>
+          <select name="sorting" id="sort" form="movieId">
+            <option value="relevance">Relevance</option>
+            <option value="popularity">Popularity</option>
+            <option value="release-date-asc">Release Date (Asc)</option>
+            <option value="release-date-desc">Release Date (Desc)</option>
+          </select>
+        </div>
+      </div>
       <div id="results">
         <!-- Here, we will insert the search results using JavaScript -->
       </div>
 
-      <div id="composer"></div>
     </main>
     <script src="index.js"></script>
   </body>
+
+
 </html>
